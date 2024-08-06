@@ -1,0 +1,32 @@
+{
+    "name": "tanduy/layout-blade",
+    "description": "Leverage Blade and Laravel powerful features to build intricate and interactive user interfaces.",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.0@dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tanduy\\LayoutBlade\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "TanDuy03",
+            "email": "ng.tanduy261203@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "pestphp/pest": "^2.35"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
